@@ -1,0 +1,99 @@
+/*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}*/
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("pictures/regbg.jpg");
+    background-size: cover;
+    height:90%;
+}
+.container{ 
+   height:100%;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.content{
+    background: linear-gradient(rgb(173, 80, 235),rgb(218, 15, 83));
+    width:600px;
+    max-height: 800px;
+    border-radius: 5px;
+    border: black 2px solid;
+}
+
+.content img{
+    margin: auto;
+    margin-left: 20px;
+    width: 90%;
+    height: 20%;
+}
+
+.form-title{
+    text-align: center;
+    padding:10px 40px 0px;
+}
+
+form{
+    padding:0px 40px;
+}
+
+input[type=text], [type=email], [type=password]{
+    border: none;
+    border-radius: 8px;
+    width:100%;
+    margin: 8px 0;
+    padding:10px 0;
+}
+input[type=number]{
+    border-radius: 8px;
+    border: none;
+    outline:none;
+    margin: 8px 0;
+    padding:5px 0;
+}
+input :hover {
+    background-color: red;
+}
+select{
+    border: none;
+    border-bottom: 1px solid black;
+    outline:none;
+    margin: 8px 0;
+    padding:5px 0;
+    width:50%;
+}
+
+button{
+    color:#ffffff;
+    background-color: #4caf50;
+    height:40px;
+    width:25%;
+    margin-top:15px;
+    cursor: pointer;
+    border:none;
+    border-radius:15px;
+    outline:none;
+    text-align:center;
+    font-size:16px;
+    text-decoration:none;
+    -webkit-transition-duration:0.4s;
+    transition-duration:0.4s;
+}
+button:hover{
+    background-color:#6bda2a;
+}
+
+.result{
+    color: rgb(77, 80, 221);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a{
+    padding-left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}

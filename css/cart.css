@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+	background-color:rgba(34, 206, 57, 0.507)
+}
+
+.container{
+	padding-top: 10%;
+	overflow-y: auto;
+	max-height: 500px;
+	width: 100%;
+}
+
+table {
+	width: auto;
+	margin-left: 20%;
+	border-collapse: collapse;
+	position: absolute;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: rgb(216, 241, 216); 
+}
+
+tr:nth-of-type(even) { 
+	background: #cfdeff; 
+}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold;
+}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: center; 
+	font-size: 20px;
+}
+
+.bottombar{
+	height: 500px;
+	width: 300px;
+	background-color:rgb(255, 255, 255);
+	float: right;
+	font-size: 20px;
+	text-align: center;
+	margin-top: -5px;
+	margin-right: 400px;
+	border-radius: 30px;
+}
+
+.bottombar .bot{
+	margin-top: 20px;
+}
+
+.bottombar button{
+	margin-top: 70px;
+	cursor: pointer;
+	font-size: 15px;
+	background-color: lightblue;
+	border-radius: 15px;
+	border: none;
+}
+
+.bottombar button{
+	width: 80px;
+	height: 30px;
+}
+
+.back{
+	margin-top: 50px;
+	position: absolute;
+	margin-left: 72%;
+	width: 100px;
+	background-color: rgb(147, 147, 243);
+	border-radius: 15px;
+}
+
+.back a, .material-symbols-outlined{
+	vertical-align: middle;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.back:hover{
+	background-color: #e95920;
+}
+
+td .quanti{
+	width: 50px;
+}
+
+td .btn{
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+	padding: 9px;
+	background-color: red;
+	text-decoration: none;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}

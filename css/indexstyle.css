@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  background-image: url(pictures/bg.jpg);
+  background-size: cover;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  height: 10%;
+  width: 100%;
+  display: inline-block;
+  position:absolute;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav img{
+  margin-top: -15px;
+  margin-left: 10px;
+  width: 120px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/*Add a color to the active current link*/ 
+.topnav a.active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position:relative;
+  top: 40px;
+  left: 32%;
+  width: 50px;
+  margin-right: 50px;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  padding-right: 30px;
+}
+
+/*body*/
+.container{
+  height: auto;
+  width: 100%;
+}
+
+.shoebg{
+  height: 50px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.shoebg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  width: 48%;
+  opacity: 85%;
+}
+
+.para1{
+  font-family: 'Otomanopee One';
+  color: white;
+  text-align: left;
+  width: 270px;
+  margin-top: 10px;
+  margin-left: 550px;
+}
+
+.para1 h1{
+  font-size: 60px;
+  color: red;
+  padding-bottom: 3px;
+}
+
+.para1 h3{
+  font-size: 25px;
+  padding-bottom: 3px;
+}
+
+.para1 p{
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.para2{
+  font-family: 'Otomanopee One';
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 175px;
+}
+
+.para2 span.red{
+  color: red;
+}
+
+.search{
+  height: 15%;
+  width: 800px;
+  color: white;
+  margin-top: 200px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(37, 105, 182);
+  position:relative;
+  border-radius: 15px;
+}
+
+.search input{
+  margin-left: 15px;
+  text-align: center;
+  width: 300px;
+  height: 25px;
+  border-radius: 15px;
+  border: none;
+}
+
+.search h1{
+  padding-top: 25px;
+  font: bold;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.seresults{
+  font-size: 35px;
+  padding-top: 150px;
+  color: white;
+}
+
+.material-symbols-outlined, .input{
+  vertical-align: middle;
+}
+
+.productcard{
+  max-height: 120%;
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  width: 300px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color: rgb(0, 0, 0);
+  background-color: rgb(236, 225, 225);
+  padding: 8px;
+  margin-top: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif  
+}
+
+.card h1{
+  padding-top: 15px;
+}
+
+.card p{
+  padding-top: 12px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(41, 101, 158);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
